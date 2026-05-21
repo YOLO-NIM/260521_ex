@@ -41,3 +41,16 @@ let o = {}; // 주소가 저장되는 타입
 console.log(typeof o);
 let arr = [];
 console.log(typeof arr);
+
+// 템플릿 리터럴
+const nn = "감자바";
+console.log(nn + "은(는) 개발자이다");
+console.log("대한민국에 사는 " + nn + "은(는) 개발자이다");
+// 변수를 직접 {문자열 연결 없이} 넣을 수 있음
+console.log(`${nn}은(는) 개발자이다`);
+console.log(`대한민국에 사는 ${nn}은(는) 개발자이다`);
+console.log(`시작
+    
+엔터가 있으면 그대로 읽음
+    
+    끝`); // 엔터를 그대로 적용
